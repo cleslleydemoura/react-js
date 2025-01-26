@@ -43,7 +43,7 @@ const produtos = [
   ];
 
 produtos.map((item, idx) => {
-    console.log(item.nome.toUpperCase())
+    console.log(item.nome.toUpperCase()) // Passando para Uppercase
 })
 
 // ex3
