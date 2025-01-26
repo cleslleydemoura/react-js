@@ -58,3 +58,23 @@ usuarios.map((nomes) => {
     console.log(nome.toUpperCase())
 })
 
+// ex4
+
+const livros = [
+    {
+        id: 1,
+        nome: "Drácula"
+    },
+    {
+        id: 2,
+        nome: "Frankenstein"
+    },
+    {
+        id: 3,
+        nome: "Memórias Póstumas de Brás Cubas"
+    }
+];
+
+livros.map((item, idx) => {
+    console.log(item.nome.length)
+})
